@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.container {
+    position: relative; 
+    display: inline-block;
+}
+
+img {
+    max-width: 80%;
+    max-height: 80%; 
+    margin-left: 50px;
+}
+
+.circle-container {
+    position: absolute; 
+    text-align: center; 
+}
+
+.text {
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+    text-align: center;  
+    
+    font-weight: bold;
+}
+
+.circle {
+    background-color: red; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    border: 2px solid white; 
+    opacity: 0.5;
+}
+.slider-container {
+    position: absolute;
+    right: -350px; 
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.slider {
+    width: 300px;
+}
+
+.year-display {
+    font-size: 2em;
+}
+
+
+
+
+.legend-gradient {
+    width: 200px; 
+    height: 20px;
+    background: linear-gradient(to right, green, yellow, red); 
+    
+}
+
+
+#legend {
+    margin-top: 20px;
+    position: absolute;
+    top: 50%; 
+    right: 20px; 
+    transform: translate(100%, 600%);
+}
+
+.legend-label {
+    display: inline-block;
+    white-space: nowrap;
+}
+.right-label {
+    display: inline-block;
+    white-space: nowrap;
+    margin-left: 150px;
+}
+.legend-labe2 {
+    display: inline-block;
+    white-space: nowrap;
+    transform: translateX(100%)
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    top: 50%; 
+    right: 20px; 
+    transform: translate(90%, -1000%);
+    
+}
+
+
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: gray;
+}
+
+.details {
+    margin-top: 20px; 
+    font-size: 16px; 
+    top: 50%; 
+    right: 20px; 
+    transform: translate(90%, -2000%);
+}
+
+
