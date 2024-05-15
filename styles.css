@@ -119,9 +119,8 @@ img {
 .details {
     margin-top: 20px; 
     font-size: 16px; 
+    position: absolute;  /* Ensure the element is positioned relative to its nearest positioned ancestor */
     top: 50%; 
     right: 20px; 
-    transform: translate(90%, -2000%);
+    transform: translate(100%,-50%);  /* Center vertically */
 }
-
-
