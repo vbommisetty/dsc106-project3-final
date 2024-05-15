@@ -1,5 +1,5 @@
 ## Created by:
-### Vaibhav Bommisetty, Liam Manatt, Ojas Vashishtha*
+### Vaibhav Bommisetty, Liam Manatt, Ojas Vashishtha
 
 # Writeup:
 
