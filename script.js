@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const slider = document.getElementById('yearRange');
     const yearDisplay = document.getElementById('yearDisplay');
     const circleContainers = document.querySelectorAll('.circle-container');
-    const tooltip = document.getElementById('tooltip'); // Get tooltip element
+    const tooltip = document.getElementById('tooltip');
 
     function colorScale(crimeRate, vi) {
 
